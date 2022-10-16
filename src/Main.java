@@ -23,7 +23,7 @@ public class Main {
         System.out.println("Минимальная затрата за день " + min + ", а максимальная " + max);
 
         //Задача 3
-        for (int b = 0; b < arr.length; b++) {
+        for (int b = 0; b < arr.length;) {
             b = totalOfAllPayments / arr.length;
             System.out.println(b);
         }
