@@ -7,8 +7,8 @@ public class Main {
         int[] arr = generateRandomArray();
         for (int value : arr) {
             totalOfAllPayments += value;
-            System.out.println("Сумма трат за месяц составила " + totalOfAllPayments + " рублей.");
         }
+        System.out.println("Сумма трат за месяц составила " + totalOfAllPayments + " рублей.");
 
         //Задача 2
         int min = arr[0];
