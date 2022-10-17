@@ -23,10 +23,12 @@ public class Main {
         System.out.println("Минимальная затрата за день " + min + ", а максимальная " + max);
 
         //Задача 3
-        for (int b = 0; b < arr.length;) {
-            b = totalOfAllPayments / arr.length;
-            System.out.println(b);
+        int[] numbers = generateRandomArray();
+        int sum = 0;
+        for (int b : numbers) {
+            sum += b;
         }
+        System.out.println(sum / (float) numbers.length);
 
         //Задача 4
         char[] reverseFullName = { 'n', 'a', 'v', 'I', ' ', 'v', 'o', 'n', 'a', 'v', 'I'};
