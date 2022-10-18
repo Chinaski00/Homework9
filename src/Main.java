@@ -28,7 +28,7 @@ public class Main {
         for (int b : numbers) {
             sum += b;
         }
-        System.out.println(sum / (float) numbers.length);
+        System.out.printf("%.2f", sum / (float) numbers.length);
 
         //Задача 4
         char[] reverseFullName = { 'n', 'a', 'v', 'I', ' ', 'v', 'o', 'n', 'a', 'v', 'I'};
